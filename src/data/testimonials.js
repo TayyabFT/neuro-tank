@@ -1,0 +1,61 @@
+export const TESTIMONIALS = [
+  {
+    id: 1,
+    name: 'Sofia Martinez',
+    role: 'Founder, La Cucina Roma',
+    industry: 'Restaurant',
+    quote: 'Neuro Tank built our WhatsApp host in 9 days. Reservations are up 38% and we never miss an enquiry — even at 2am.',
+    metric: '+38% reservations',
+    rating: 5,
+  },
+  {
+    id: 2,
+    name: 'Daniel Okafor',
+    role: 'Director, Skyline Realty',
+    industry: 'Real Estate',
+    quote: 'The AI agent qualifies and books property tours overnight. It feels like adding 4 senior salespeople for the price of a coffee.',
+    metric: '4.2× more booked tours',
+    rating: 5,
+  },
+  {
+    id: 3,
+    name: 'Dr. Priya Shah',
+    role: 'Founder, BrightCare Clinic',
+    industry: 'Healthcare',
+    quote: 'Our front desk now handles 3× the patients with zero overtime. The AI triage system saved us hiring two coordinators.',
+    metric: '–62% admin time',
+    rating: 5,
+  },
+  {
+    id: 4,
+    name: 'Marcus Lee',
+    role: 'COO, Nimbus Apparel',
+    industry: 'E‑commerce',
+    quote: 'We deflect 81% of support tickets and recovered $240k in abandoned carts in the first quarter. Stupidly good ROI.',
+    metric: '$240k cart recovery',
+    rating: 5,
+  },
+  {
+    id: 5,
+    name: 'Hannah Becker',
+    role: 'CMO, Aurora Hotels',
+    industry: 'Hospitality',
+    quote: 'Guests rave about our 24/7 concierge AI. Upgrades sold via chat are now our highest-margin revenue line.',
+    metric: '+27% upgrade revenue',
+    rating: 5,
+  },
+  {
+    id: 6,
+    name: 'Jordan Reyes',
+    role: 'Owner, Halo Studio Salon',
+    industry: 'Beauty',
+    quote: 'I sleep through the night and wake up to a full calendar. The AI rebooks no-shows automatically — magic.',
+    metric: '92% no-show recovery',
+    rating: 5,
+  },
+]
+
+export const LOGOS = [
+  'Skyline Realty', 'La Cucina', 'BrightCare', 'Nimbus', 'Aurora Hotels',
+  'Halo Studio', 'NovaCart', 'BlueAxis', 'Lumen AI', 'Helios Group',
+]
