@@ -4,7 +4,7 @@ import { cn } from '@/utils/cn'
 import { useMagnetic } from '@/hooks/useMagnetic'
 
 const base =
-  'group relative inline-flex items-center justify-center gap-2 rounded-full font-medium ' +
+  'group relative inline-flex items-center justify-center gap-2 rounded-full font-medium cursor-pointer ' +
   'transition-all duration-300 ease-out select-none whitespace-nowrap will-change-transform ' +
   'focus:outline-none focus-visible:ring-2 focus-visible:ring-neon-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950'
 

@@ -9,6 +9,10 @@ const ServicesPage = lazy(() => import('@/pages/ServicesPage.jsx'))
 const IndustriesPage = lazy(() => import('@/pages/IndustriesPage.jsx'))
 const AboutPage = lazy(() => import('@/pages/AboutPage.jsx'))
 const ContactPage = lazy(() => import('@/pages/ContactPage.jsx'))
+const IndustryDetailPage = lazy(() => import('@/pages/IndustryDetailPage.jsx'))
+const ServiceDetailPage = lazy(() => import('@/pages/ServiceDetailPage.jsx'))
+const TermsPage = lazy(() => import('@/pages/TermsPage.jsx'))
+const SecurityPage = lazy(() => import('@/pages/SecurityPage.jsx'))
 const NotFound = lazy(() => import('@/pages/NotFound.jsx'))
 
 function ScrollToTop() {
@@ -50,6 +54,10 @@ export default function App() {
             <Route path="/industries" element={<PageShell><IndustriesPage /></PageShell>} />
             <Route path="/about" element={<PageShell><AboutPage /></PageShell>} />
             <Route path="/contact" element={<PageShell><ContactPage /></PageShell>} />
+            <Route path="/industries/:id" element={<PageShell><IndustryDetailPage /></PageShell>} />
+            <Route path="/services/:id" element={<PageShell><ServiceDetailPage /></PageShell>} />
+            <Route path="/terms" element={<PageShell><TermsPage /></PageShell>} />
+            <Route path="/security" element={<PageShell><SecurityPage /></PageShell>} />
             <Route path="*" element={<PageShell><NotFound /></PageShell>} />
           </Routes>
         </AnimatePresence>

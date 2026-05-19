@@ -30,7 +30,7 @@ export default function WhyUs() {
         <SectionHeader
           eyebrow="Why Neuro Tank"
           title={<>The cost of <span className="text-gradient">slow replies</span> is what's killing your growth.</>}
-          description="We measured the same metrics across 180+ businesses before and after deploying our AI. Here's the side-by-side."
+          description="We measured the same metrics across 30+ businesses before and after deploying our AI. Here's the side-by-side."
         />
 
         {/* Big stats row */}

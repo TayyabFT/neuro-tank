@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { FaLinkedinIn, FaXTwitter, FaInstagram, FaYoutube, FaGithub } from 'react-icons/fa6'
+import { FaInstagram, FaFacebook, FaTiktok } from 'react-icons/fa6'
 import { HiArrowRight, HiCheck } from 'react-icons/hi2'
 import Container from '@/components/common/Container.jsx'
 import Logo from '@/components/common/Logo.jsx'
@@ -9,11 +9,9 @@ import { NAV_LINKS, COMPANY } from '@/data/navigation'
 import { SERVICES } from '@/data/services'
 
 const SOCIALS = [
-  { icon: FaXTwitter,    href: COMPANY.social.twitter,   label: 'Twitter / X' },
-  { icon: FaLinkedinIn,  href: COMPANY.social.linkedin,  label: 'LinkedIn' },
-  { icon: FaInstagram,   href: COMPANY.social.instagram, label: 'Instagram' },
-  { icon: FaYoutube,     href: COMPANY.social.youtube,   label: 'YouTube' },
-  { icon: FaGithub,      href: COMPANY.social.github,    label: 'GitHub' },
+  { icon: FaInstagram, href: COMPANY.social.instagram, label: 'Instagram' },
+  { icon: FaFacebook,  href: COMPANY.social.facebook,  label: 'Facebook' },
+  { icon: FaTiktok,    href: COMPANY.social.tiktok,    label: 'TikTok' },
 ]
 
 export default function Footer() {
@@ -83,7 +81,7 @@ export default function Footer() {
                   rel="noreferrer"
                   aria-label={label}
                   whileHover={{ y: -3 }}
-                  className="grid size-10 place-items-center rounded-full glass border border-white/10 text-ink-200 hover:text-white hover:border-white/25 transition"
+                  className="grid size-10 place-items-center rounded-full glass border border-white/10 text-ink-200 hover:text-white hover:border-white/25 transition cursor-pointer"
                 >
                   <Icon className="size-4" />
                 </motion.a>
@@ -107,7 +105,7 @@ export default function Footer() {
             <ul className="space-y-3">
               {SERVICES.slice(0, 6).map((s) => (
                 <li key={s.id}>
-                  <a href={`/services#${s.id}`} className="text-ink-200 hover:text-white transition">{s.title}</a>
+                  <a href={`/services/${s.id}`} className="text-ink-200 hover:text-white transition cursor-pointer">{s.title}</a>
                 </li>
               ))}
             </ul>
@@ -129,9 +127,8 @@ export default function Footer() {
             © {new Date().getFullYear()} {COMPANY.name}. All rights reserved.
           </p>
           <div className="flex items-center gap-5 text-xs text-ink-400">
-            <a href="#" className="hover:text-white">Privacy</a>
-            <a href="#" className="hover:text-white">Terms</a>
-            <a href="#" className="hover:text-white">Security</a>
+            <a href="/terms" className="hover:text-white cursor-pointer">Terms</a>
+            <a href="/security" className="hover:text-white cursor-pointer">Security</a>
             <span className="inline-flex items-center gap-2">
               <span className="size-1.5 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(74,222,128,0.8)]" />
               All systems operational

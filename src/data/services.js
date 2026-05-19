@@ -7,6 +7,11 @@ import {
   HiOutlineSparkles,
   HiOutlineBolt,
   HiOutlineCpuChip,
+  HiOutlineComputerDesktop,
+  HiOutlineLightBulb,
+  HiOutlineDevicePhoneMobile,
+  HiOutlineCube,
+  HiOutlineBriefcase,
 } from 'react-icons/hi2'
 
 export const SERVICES = [
@@ -121,5 +126,75 @@ export const SERVICES = [
       'Lifetime optimization included',
     ],
     accent: 'from-cyan-400 via-violet-500 to-fuchsia-500',
+  },
+  {
+    id: 'web-solutions',
+    icon: HiOutlineComputerDesktop,
+    title: 'Web Solutions',
+    short: 'Fast, modern websites that convert visitors into paying customers.',
+    description:
+      'We design and build high-performance business websites — landing pages, company sites, and web apps — optimized for speed, SEO, and lead capture with optional AI built in.',
+    bullets: [
+      'Responsive design for all devices',
+      'SEO-ready structure & fast load times',
+      'Integrations with chat, CRM & analytics',
+    ],
+    accent: 'from-blue-400 via-indigo-500 to-violet-600',
+  },
+  {
+    id: 'ai-solutions',
+    icon: HiOutlineLightBulb,
+    title: 'AI Solutions',
+    short: 'End-to-end AI systems tailored to how your business actually works.',
+    description:
+      'From chatbots and voice agents to workflow automation and custom models — we architect AI solutions that save time, cut costs, and scale with your operations.',
+    bullets: [
+      'Strategy, build & deployment in one team',
+      'WhatsApp, web, voice & internal tools',
+      'Trained on your data and brand voice',
+    ],
+    accent: 'from-violet-400 via-purple-500 to-fuchsia-500',
+  },
+  {
+    id: 'app-solutions',
+    icon: HiOutlineDevicePhoneMobile,
+    title: 'App Solutions',
+    short: 'Mobile apps your customers love — with AI features where it matters.',
+    description:
+      'Native and cross-platform apps for iOS and Android. We handle design, development, APIs, and optional AI assistants so your business lives in your customers\' pockets.',
+    bullets: [
+      'iOS, Android & cross-platform builds',
+      'Secure APIs & push notifications',
+      'Optional in-app AI support & booking',
+    ],
+    accent: 'from-cyan-400 via-teal-500 to-emerald-500',
+  },
+  {
+    id: 'product-solutions',
+    icon: HiOutlineCube,
+    title: 'Product Solutions',
+    short: 'Turn your idea into a polished digital product — ready to launch.',
+    description:
+      'We help you go from concept to MVP to market: product strategy, UX/UI, development, and launch support for SaaS tools, dashboards, and customer-facing platforms.',
+    bullets: [
+      'MVP scoping & rapid iteration',
+      'User-centered UX/UI design',
+      'Scalable architecture from day one',
+    ],
+    accent: 'from-amber-400 via-orange-500 to-rose-500',
+  },
+  {
+    id: 'business-solutions',
+    icon: HiOutlineBriefcase,
+    title: 'Business Solutions',
+    short: 'Digital systems that streamline how your whole company operates.',
+    description:
+      'Operations, sales, support, and marketing — unified with automation, dashboards, and AI. We map your workflows and build solutions that help teams work faster with less manual work.',
+    bullets: [
+      'Process mapping & automation design',
+      'Dashboards, reports & team tools',
+      'Ongoing support & optimization',
+    ],
+    accent: 'from-slate-400 via-violet-500 to-cyan-500',
   },
 ]

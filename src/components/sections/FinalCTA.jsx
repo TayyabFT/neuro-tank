@@ -77,7 +77,7 @@ export default function FinalCTA() {
               <Button to="/contact" size="lg" magnetic iconRight={<HiArrowRight />}>
                 Start Now
               </Button>
-              <Button href="#demo" size="lg" variant="ghost" iconLeft={<HiOutlinePlay />}>
+              <Button href="/#demo" size="lg" variant="ghost" iconLeft={<HiOutlinePlay />}>
                 Book Consultation
               </Button>
             </motion.div>

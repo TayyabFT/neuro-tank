@@ -59,7 +59,7 @@ export default function ServicesPage() {
 
                       <div className="mt-7 flex flex-wrap gap-3">
                         <Button to="/contact" size="sm" magnetic iconRight={<HiArrowRight />}>Start with this</Button>
-                        <Button href="#" variant="ghost" size="sm">See case studies</Button>
+                        <Button to={`/services/${s.id}`} variant="ghost" size="sm">Learn more</Button>
                       </div>
                     </div>
 

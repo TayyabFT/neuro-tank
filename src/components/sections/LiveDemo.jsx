@@ -10,7 +10,7 @@ import { DEMO_CONVERSATIONS } from '@/data/demo'
 import { cn } from '@/utils/cn'
 
 const HIGHLIGHTS = [
-  { icon: HiBolt,                title: 'Replies in <3 seconds',  text: 'Average response time across 3.2M conversations.' },
+  { icon: HiBolt,                title: 'Replies in <3 seconds',  text: 'Average response time across 1 Lakh+ conversations.' },
   { icon: HiCheckBadge,          title: 'Brand-perfect tone',     text: 'Trained on your voice, products, FAQ and offers.' },
   { icon: HiOutlineCalendarDays, title: 'Books real appointments', text: 'Connected to your calendar — no human in the loop.' },
   { icon: HiCpuChip,             title: 'Connects to your stack', text: 'CRM, Sheets, Stripe, Calendly, Slack and 40+ apps.' },
@@ -112,7 +112,7 @@ export default function LiveDemo() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <Button to="/contact" magnetic>Get this for my business</Button>
-              <Button variant="ghost" href="#pricing">See pricing</Button>
+              <Button variant="ghost" href="/#pricing">See pricing</Button>
             </div>
           </div>
         </div>

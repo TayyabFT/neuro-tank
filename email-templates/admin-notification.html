@@ -1,0 +1,128 @@
+<!--
+  Neuro Tank · Admin notification template
+  Paste the contents of this file into EmailJS dashboard:
+    Templates → New Template → HTML content
+  Settings (top of template):
+    Subject:   New lead from {{name}} — Neuro Tank
+    From name: Neuro Tank Website
+    To email:  {{to_email}}
+    Reply to:  {{reply_to}}
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>New lead — Neuro Tank</title>
+</head>
+<body style="margin:0;padding:0;background:#02030a;font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#e5e8ff;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#02030a;padding:32px 12px;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:640px;background:linear-gradient(180deg,#0a0c22 0%,#05060f 100%);border:1px solid rgba(255,255,255,0.08);border-radius:20px;overflow:hidden;box-shadow:0 30px 80px -20px rgba(124,58,237,0.45);">
+
+          <!-- Header band -->
+          <tr>
+            <td style="background:linear-gradient(110deg,#22d3ee 0%,#7c3aed 45%,#d946ef 100%);padding:28px 32px;color:#ffffff;">
+              <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                <tr>
+                  <td style="font-size:13px;letter-spacing:0.22em;text-transform:uppercase;font-weight:600;opacity:0.95;">
+                    Neuro Tank · New Lead
+                  </td>
+                  <td align="right" style="font-size:12px;opacity:0.9;">
+                    {{submitted_at}}
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="padding-top:14px;font-size:24px;font-weight:700;line-height:1.25;">
+                    {{name}} just submitted the contact form
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Highlight bar -->
+          <tr>
+            <td style="padding:0 32px;">
+              <div style="margin-top:-1px;padding:14px 18px;border:1px solid rgba(124,58,237,0.35);border-top:0;border-radius:0 0 14px 14px;background:rgba(124,58,237,0.08);font-size:14px;color:#c7ccf5;">
+                Reply directly to this email to reach <strong style="color:#ffffff;">{{name}}</strong> at
+                <a href="mailto:{{reply_to}}" style="color:#7df9ff;text-decoration:none;">{{reply_to}}</a>.
+              </div>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style="padding:28px 32px 8px 32px;">
+              <h2 style="margin:0 0 16px 0;font-size:14px;letter-spacing:0.22em;text-transform:uppercase;color:#9098d6;font-weight:600;">
+                Lead details
+              </h2>
+
+              <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;border-spacing:0 8px;">
+                <tr>
+                  <td width="35%" style="padding:14px 16px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px 0 0 10px;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#9098d6;">Name</td>
+                  <td style="padding:14px 16px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-left:0;border-radius:0 10px 10px 0;font-size:15px;color:#ffffff;font-weight:600;">{{name}}</td>
+                </tr>
+                <tr>
+                  <td style="padding:14px 16px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px 0 0 10px;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#9098d6;">Email</td>
+                  <td style="padding:14px 16px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-left:0;border-radius:0 10px 10px 0;font-size:15px;">
+                    <a href="mailto:{{email}}" style="color:#7df9ff;text-decoration:none;">{{email}}</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:14px 16px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px 0 0 10px;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#9098d6;">Company</td>
+                  <td style="padding:14px 16px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-left:0;border-radius:0 10px 10px 0;font-size:15px;color:#e5e8ff;">{{company}}</td>
+                </tr>
+                <tr>
+                  <td style="padding:14px 16px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px 0 0 10px;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#9098d6;">Service</td>
+                  <td style="padding:14px 16px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-left:0;border-radius:0 10px 10px 0;font-size:15px;color:#e5e8ff;">{{service}}</td>
+                </tr>
+                <tr>
+                  <td style="padding:14px 16px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px 0 0 10px;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#9098d6;">Budget</td>
+                  <td style="padding:14px 16px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-left:0;border-radius:0 10px 10px 0;font-size:15px;color:#e5e8ff;">{{budget}}</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Message block -->
+          <tr>
+            <td style="padding:18px 32px 8px 32px;">
+              <h2 style="margin:0 0 12px 0;font-size:14px;letter-spacing:0.22em;text-transform:uppercase;color:#9098d6;font-weight:600;">Message</h2>
+              <div style="padding:18px 20px;background:rgba(34,211,238,0.06);border:1px solid rgba(34,211,238,0.25);border-left:3px solid #22d3ee;border-radius:12px;font-size:15px;line-height:1.6;color:#ffffff;white-space:pre-wrap;">
+                {{message}}
+              </div>
+            </td>
+          </tr>
+
+          <!-- CTA -->
+          <tr>
+            <td align="center" style="padding:28px 32px 8px 32px;">
+              <a href="mailto:{{reply_to}}?subject=Re%3A%20Your%20Neuro%20Tank%20enquiry" style="display:inline-block;padding:14px 28px;border-radius:999px;background:linear-gradient(110deg,#22d3ee 0%,#7c3aed 45%,#d946ef 100%);color:#ffffff;text-decoration:none;font-weight:600;font-size:15px;box-shadow:0 12px 40px -8px rgba(124,58,237,0.6);">
+                Reply to {{name}} →
+              </a>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="padding:24px 32px 28px 32px;border-top:1px solid rgba(255,255,255,0.06);margin-top:12px;">
+              <p style="margin:18px 0 4px 0;font-size:12px;color:#5d63a5;text-align:center;">
+                Sent automatically from the Neuro Tank website contact form.
+              </p>
+              <p style="margin:0;font-size:12px;color:#5d63a5;text-align:center;">
+                {{company_name}} · {{company_location}} · {{company_email}}
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <p style="max-width:640px;margin:14px auto 0 auto;font-size:11px;color:#353a72;text-align:center;line-height:1.6;">
+          You're receiving this because a visitor submitted the contact form on neuro-tank's website.
+        </p>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

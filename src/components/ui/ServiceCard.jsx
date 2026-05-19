@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { HiArrowRight } from 'react-icons/hi2'
 import { useTilt } from '@/hooks/useTilt'
@@ -59,10 +60,10 @@ export default function ServiceCard({ service, index = 0 }) {
           </ul>
 
           <div className="mt-7 flex items-center justify-between border-t border-white/5 pt-5">
-            <a href={`/services#${service.id}`} className="inline-flex items-center gap-1.5 text-sm font-medium text-ink-100 group/link">
+            <Link to={`/services/${service.id}`} className="inline-flex items-center gap-1.5 text-sm font-medium text-ink-100 group/link cursor-pointer">
               <span className="bg-gradient-to-r from-neon-400 to-violet-400 bg-clip-text text-transparent">Learn more</span>
               <HiArrowRight className="text-ink-300 transition group-hover/link:translate-x-1 group-hover/link:text-white" />
-            </a>
+            </Link>
             <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-ink-400">
               {String(index + 1).padStart(2, '0')}
             </span>

@@ -10,8 +10,8 @@ import { usePrefersReducedMotion, useIsMobile } from '@/hooks/useMediaQuery'
 const HeroScene = lazy(() => import('@/components/three/HeroScene.jsx'))
 
 const TRUST_TICKERS = [
-  '180+ businesses automated',
-  '3.2M conversations handled',
+  '30+ businesses supported',
+  '1 Lakh+ conversations handled',
   'Replies in under 3 seconds',
   '24/7 coverage',
   '40+ CRM integrations',
@@ -116,7 +116,7 @@ export default function Hero() {
             <Button to="/contact" size="lg" magnetic iconRight={<HiArrowRight />}>
               Book Free Consultation
             </Button>
-            <Button href="#demo" size="lg" variant="ghost" iconLeft={<HiOutlinePlay />}>
+            <Button href="/#demo" size="lg" variant="ghost" iconLeft={<HiOutlinePlay />}>
               Watch Live Demo
             </Button>
           </motion.div>
@@ -137,7 +137,7 @@ export default function Hero() {
                 <span key={g} className={`size-7 rounded-full bg-gradient-to-br ${g} ring-2 ring-ink-950`} />
               ))}
             </span>
-            <span className="font-medium text-ink-200">180+ businesses</span> trust us to handle their AI
+            <span className="font-medium text-ink-200">30+ businesses</span> trust us to handle their AI
           </motion.div>
         </motion.div>
       </Container>

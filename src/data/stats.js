@@ -1,8 +1,8 @@
 export const STATS = [
-  { value: '3.2M+', label: 'AI conversations handled' },
-  { value: '180+',  label: 'Businesses automated' },
-  { value: '24/7',  label: 'Always-on uptime' },
-  { value: '<3s',   label: 'Avg. response time' },
+  { value: '1 Lakh+', label: 'Conversations handled' },
+  { value: '30+',     label: 'Businesses supported' },
+  { value: '24/7',    label: 'Always-on uptime' },
+  { value: '<3s',     label: 'Avg. response time' },
 ]
 
 export const COMPARISONS = [
