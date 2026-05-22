@@ -1,0 +1,11 @@
+{
+  "remoteName": "origin",
+  "projects": [
+    {
+      "id": "prj_8gKuTBPuoD1wZKGlY7ewzQYdDOAX",
+      "name": "neuro-tank",
+      "directory": ".",
+      "orgId": "team_GtGL9SzAf7dHiLYBfXCFlC1u"
+    }
+  ]
+}

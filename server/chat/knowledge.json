@@ -1,0 +1,155 @@
+{
+  "company": {
+    "name": "Neuro Tank",
+    "tagline": "AI Automation Studio",
+    "mission": "Neuro Tank builds AI-powered automation for businesses — WhatsApp bots, website AI assistants, lead generation, CRM automation, booking systems, and custom AI workflows. We help businesses reply instantly 24/7, capture more leads, and automate support.",
+    "location": "Lahore, Pakistan",
+    "email": "neurotank2.5@gmail.com",
+    "phone": "+923451109384",
+    "stats": "1 Lakh+ conversations handled, 30+ businesses supported, under 3 second average response time, 24/7 availability."
+  },
+  "chunks": [
+    {
+      "id": "contact",
+      "tags": ["contact", "email", "phone", "location", "reach", "call", "whatsapp"],
+      "content": "Contact Neuro Tank: Email neurotank2.5@gmail.com | Phone +923451109384 | Location Lahore, Pakistan. Book a free consultation at /contact. We reply within 12 hours on business days."
+    },
+    {
+      "id": "consultation",
+      "tags": ["consultation", "book", "call", "meeting", "onboarding", "start", "process"],
+      "content": "Consultation process: 1) Submit the contact form or book via website. 2) Senior strategist replies within 12 hours. 3) Free 30-minute strategy call to map automations. 4) Fixed timeline and price within 48 hours. 5) Build and launch in 10–14 days for most projects."
+    },
+    {
+      "id": "pricing-starter",
+      "tags": ["pricing", "price", "cost", "starter", "plan", "monthly", "subscription"],
+      "content": "Starter plan: $300/month or $3,000/year (save with annual). For solopreneurs and local shops. Includes: 1 AI chatbot (WhatsApp OR Website), trained on up to 50 pages/FAQs, lead capture to CRM/email, 2 integrations (Calendar + Sheets), email support with 48h response."
+    },
+    {
+      "id": "pricing-growth",
+      "tags": ["pricing", "price", "cost", "growth", "plan", "popular"],
+      "content": "Growth plan (Most Popular): $1,200/month or $12,000/year. For scaling brands and agencies. Includes: up to 3 channels (Web + WhatsApp + Instagram), full website + catalog training, AI booking & calendar automation, CRM + 8 integrations, advanced analytics, priority support 12h response."
+    },
+    {
+      "id": "pricing-enterprise",
+      "tags": ["pricing", "enterprise", "custom", "large"],
+      "content": "Enterprise plan: Custom pricing. For high-volume operations. Includes: unlimited channels and agents, voice AI sales agents (inbound + outbound), custom workflows and private models, dedicated solutions architect, on-prem/private cloud option, 99.99% SLA and 1h response."
+    },
+    {
+      "id": "service-whatsapp",
+      "tags": ["whatsapp", "chatbot", "messaging", "dm"],
+      "content": "WhatsApp AI Chatbots: Instant 24/7 replies on WhatsApp. Qualify leads, answer FAQs, send catalogs, book appointments in under 3 seconds. Multi-language, human handoff, full transcripts."
+    },
+    {
+      "id": "service-website",
+      "tags": ["website", "web", "assistant", "chat", "widget"],
+      "content": "Website AI Assistants: AI concierge embedded on your site. Trained on your services, pricing, and brand voice. Captures qualified leads to CRM. Works on any website framework."
+    },
+    {
+      "id": "service-booking",
+      "tags": ["booking", "appointment", "calendar", "schedule"],
+      "content": "AI Appointment & Booking: End-to-end booking — checks availability, books appointments, sends reminders, reschedules. Connects Google Calendar, Calendly, and in-house systems."
+    },
+    {
+      "id": "service-support",
+      "tags": ["support", "customer", "help", "tickets"],
+      "content": "AI Customer Support: Resolves ~80% of tickets automatically. Trained on your knowledge base. Handles returns, order status, troubleshooting. Escalates only when needed."
+    },
+    {
+      "id": "service-crm",
+      "tags": ["crm", "hubspot", "salesforce", "automation"],
+      "content": "CRM Automation: Connect HubSpot, Salesforce, Zoho, GoHighLevel, Pipedrive, Airtable. Auto lead scoring, follow-ups, deal stages, email/SMS sequences."
+    },
+    {
+      "id": "service-leadgen",
+      "tags": ["lead", "generation", "outreach", "sales"],
+      "content": "Lead Generation Systems: AI outbound — cold email, LinkedIn, WhatsApp outreach. Personalized at scale. Inbox warming and deliverability included."
+    },
+    {
+      "id": "service-sales",
+      "tags": ["sales", "agent", "voice", "calls"],
+      "content": "AI Sales Agents: Voice and chat agents that qualify, demo, handle objections, and book meetings. Trained on your top closer's playbooks."
+    },
+    {
+      "id": "service-custom",
+      "tags": ["custom", "bespoke", "workflow"],
+      "content": "Custom AI Automation: Bespoke AI stack for your unique workflow — document processing, internal copilots, end-to-end automations. Full ownership, no lock-in."
+    },
+    {
+      "id": "service-web",
+      "tags": ["web", "website", "development", "design"],
+      "content": "Web Solutions: High-performance business websites and web apps. SEO-ready, fast, lead capture, optional AI chat built in."
+    },
+    {
+      "id": "service-ai",
+      "tags": ["ai", "solutions", "automation"],
+      "content": "AI Solutions: End-to-end AI systems — chatbots, voice agents, workflow automation, custom models. Strategy, build, and deployment in one team."
+    },
+    {
+      "id": "service-app",
+      "tags": ["app", "mobile", "ios", "android"],
+      "content": "App Solutions: iOS and Android apps with optional in-app AI support and booking."
+    },
+    {
+      "id": "service-product",
+      "tags": ["product", "mvp", "saas"],
+      "content": "Product Solutions: Concept to MVP to market — SaaS, dashboards, customer platforms."
+    },
+    {
+      "id": "service-business",
+      "tags": ["business", "operations", "enterprise"],
+      "content": "Business Solutions: Unify operations, sales, support, marketing with automation, dashboards, and AI."
+    },
+    {
+      "id": "industries",
+      "tags": ["industry", "restaurant", "real estate", "clinic", "salon", "hotel", "ecommerce", "education", "agency"],
+      "content": "Industries we serve: Restaurants, Real Estate, Clinics, Salons & Spas, Hotels, E-commerce, Education, and Agencies. Each has a tailored AI playbook."
+    },
+    {
+      "id": "timeline",
+      "tags": ["time", "how long", "launch", "days", "weeks"],
+      "content": "Timeline: Most clients live in 10–14 days. Simple WhatsApp bots in 72 hours. Complex multi-channel systems 3–4 weeks. Fixed timeline shared after consultation."
+    },
+    {
+      "id": "integrations",
+      "tags": ["integration", "connect", "api", "tools"],
+      "content": "Integrations: HubSpot, Salesforce, Zoho, GoHighLevel, Pipedrive, Notion, Airtable, Google/Outlook Calendar, Stripe, Shopify, WooCommerce, 40+ more. Custom integrations on request."
+    },
+    {
+      "id": "channels",
+      "tags": ["channel", "platform", "instagram", "telegram"],
+      "content": "Channels supported: WhatsApp, Instagram DMs, Messenger, website chat, Telegram, email, voice/phone, SMS."
+    },
+    {
+      "id": "security",
+      "tags": ["security", "privacy", "gdpr", "hipaa", "data"],
+      "content": "Security: Data encrypted in transit and at rest. SOC 2 compliant workflows. GDPR and HIPAA-aware setups on Enterprise. Private cloud option available."
+    },
+    {
+      "id": "contract",
+      "tags": ["contract", "cancel", "lock", "month"],
+      "content": "Billing: No long-term lock-in. Month-to-month or annual (discounted). Cancel anytime. You own your data, knowledge base, and workflows."
+    },
+    {
+      "id": "faq-technical",
+      "tags": ["technical", "knowledge", "train", "setup"],
+      "content": "No technical knowledge needed. We handle design, training, integration, and optimization. You get a dashboard and dedicated success manager."
+    },
+    {
+      "id": "faq-brand",
+      "tags": ["brand", "voice", "tone", "train"],
+      "content": "AI is trained on your brand voice, FAQs, product catalog, and scripts so it sounds like your best team member."
+    },
+    {
+      "id": "faq-escalation",
+      "tags": ["escalation", "human", "handoff"],
+      "content": "If AI cannot answer, it escalates to your team via Slack/Email/WhatsApp with full transcript. We retrain weekly from gaps."
+    },
+    {
+      "id": "process-steps",
+      "tags": ["process", "how it works", "steps"],
+      "content": "How it works: Step 1 Consultation (48h plan). Step 2 AI Development (1–2 weeks). Step 3 Integration (3–5 days). Step 4 Automation Launch (ongoing optimization)."
+    }
+  ],
+  "refusalMessage": "I am only trained to answer questions related to our company, services, pricing, and automation solutions. For other topics, please contact our team at neurotank2.5@gmail.com or visit /contact to book a consultation.",
+  "fallbackMessage": "Please contact our team for more information. Email: neurotank2.5@gmail.com | Phone: +923451109384 | Book at /contact."
+}
